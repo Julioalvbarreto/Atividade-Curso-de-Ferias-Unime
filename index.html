@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid pelos estados</title>
+    <link rel="icon" href="./imagens/logo-unime1.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive768.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img width="150" src="https://cmspim.cogna.digital/unime/public/2019-10/logo-unime-p.png" alt="logo da Unime do site unime.edu.br">
+        </div>
+
+        <div class="buscador">
+            <label for="estados">Buscar pelo Estado (UF)</label>
+            <select name="estados" id="estados">
+                <option value="selecionar">--SELECIONE UM ESTADO--</option>
+            </select>
+        </div>
+
+        <div class="dados">
+            <img id="erro" width="750" height="350" src="./imagens/ERRO1.png" alt="ERRO AO CONECTAR COM SERVIDOR">
+            
+        </div>
+
+        <div style="display: none;" class="dadosEstatisticas">
+           
+        </div>
+    </div>
+
+</body>
+</html>
